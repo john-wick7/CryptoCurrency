@@ -1,4 +1,3 @@
-package com.example.cryptoapp.presentation
 
 import android.content.Context
 import android.os.Bundle
