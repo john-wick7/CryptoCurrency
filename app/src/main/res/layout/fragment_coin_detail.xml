@@ -2,6 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:background="#d0f4f5"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".presentation.CoinDetailActivity">
@@ -10,7 +11,10 @@
         android:id="@+id/ivLogoCoin"
         android:layout_width="80dp"
         android:layout_height="80dp"
-        android:layout_margin="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="49dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -54,11 +58,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
+
         app:cardUseCompatPadding="true"
         app:layout_constraintTop_toBottomOf="@id/tvSlash">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
+            android:background="#65dba2fc"
             android:layout_height="wrap_content"
             android:paddingTop="8dp"
             android:paddingBottom="8dp">
@@ -71,7 +77,7 @@
                 android:paddingEnd="8dp"
                 android:text="@string/price_label"
                 android:textColor="#000"
-                android:textSize="16sp"
+                android:textSize="20sp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -81,7 +87,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 android:textColor="#000"
-                android:textSize="16sp"
+                android:textSize="20sp"
                 app:layout_constraintStart_toEndOf="@id/tvPriceLabel"
                 app:layout_constraintTop_toTopOf="parent"
                 tools:text="7352.5" />
@@ -102,7 +108,7 @@
                 android:paddingEnd="8dp"
                 android:text="@string/min_price_label"
                 android:textColor="#000"
-                android:textSize="16sp"
+                android:textSize="20sp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/tvPriceLabel" />
 
@@ -113,7 +119,7 @@
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="16dp"
                 android:textColor="@android:color/holo_red_dark"
-                android:textSize="16sp"
+                android:textSize="20sp"
                 app:layout_constraintStart_toEndOf="@id/tvMinPriceLabel"
                 app:layout_constraintTop_toBottomOf="@id/tvPriceLabel"
                 tools:text="7110.0" />
@@ -134,7 +140,7 @@
                 android:paddingEnd="8dp"
                 android:text="@string/max_price_label"
                 android:textColor="#000"
-                android:textSize="16sp"
+                android:textSize="20sp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/tvMinPriceLabel" />
 
@@ -145,7 +151,7 @@
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="16dp"
                 android:textColor="@android:color/holo_green_dark"
-                android:textSize="16sp"
+                android:textSize="20sp"
                 app:layout_constraintStart_toEndOf="@id/tvMaxPriceLabel"
                 app:layout_constraintTop_toBottomOf="@id/tvMinPriceLabel"
                 tools:text="7820.1" />
@@ -166,7 +172,7 @@
                 android:paddingEnd="8dp"
                 android:text="@string/last_market_label"
                 android:textColor="#000"
-                android:textSize="16sp"
+                android:textSize="20sp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/tvMaxPriceLabel" />
 
@@ -177,7 +183,7 @@
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="16dp"
                 android:textColor="#000"
-                android:textSize="16sp"
+                android:textSize="20sp"
                 app:layout_constraintStart_toEndOf="@id/tvLastMarketLabel"
                 app:layout_constraintTop_toBottomOf="@id/tvMaxPriceLabel"
                 tools:text="Bitfinex" />
@@ -198,7 +204,7 @@
                 android:paddingEnd="8dp"
                 android:text="@string/last_updated_label"
                 android:textColor="#000"
-                android:textSize="16sp"
+                android:textSize="20sp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/tvLastMarketLabel" />
 
@@ -209,7 +215,7 @@
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="16dp"
                 android:textColor="#000"
-                android:textSize="16sp"
+                android:textSize="20sp"
                 app:layout_constraintStart_toEndOf="@id/tvLastUpdateLabel"
                 app:layout_constraintTop_toBottomOf="@id/tvLastMarket"
                 tools:text="21:05:16" />
