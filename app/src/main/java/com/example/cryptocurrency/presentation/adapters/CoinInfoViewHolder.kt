@@ -1,3 +1,4 @@
+package com.example.cryptocurrency.presentation.adapters
 
 
 import androidx.recyclerview.widget.RecyclerView

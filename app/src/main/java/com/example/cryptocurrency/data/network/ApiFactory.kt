@@ -1,4 +1,5 @@
-package com.example.cryptoapp.data.network
+package com.example.cryptocurrency.data.network
+
 
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory

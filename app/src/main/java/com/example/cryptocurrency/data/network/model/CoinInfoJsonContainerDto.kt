@@ -1,4 +1,5 @@
-package com.example.cryptoapp.data.network.model
+package com.example.cryptocurrency.data.network.model
+
 
 import com.google.gson.JsonObject
 import com.google.gson.annotations.Expose
