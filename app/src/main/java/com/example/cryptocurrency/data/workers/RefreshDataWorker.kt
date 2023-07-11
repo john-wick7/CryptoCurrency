@@ -1,10 +1,10 @@
-package com.example.cryptoapp.data.workers
+package com.example.cryptocurrency.data.workers
 
 import android.content.Context
 import androidx.work.*
-import com.example.cryptoapp.data.database.CoinInfoDao
-import com.example.cryptoapp.data.mapper.CoinMapper
-import com.example.cryptoapp.data.network.ApiService
+import com.example.cryptocurrency.data.database.CoinInfoDao
+import com.example.cryptocurrency.data.mapper.CoinMapper
+import com.example.cryptocurrency.data.network.ApiService
 import kotlinx.coroutines.delay
 import javax.inject.Inject
 

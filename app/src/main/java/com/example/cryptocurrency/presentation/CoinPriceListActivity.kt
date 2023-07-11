@@ -1,3 +1,4 @@
+package com.example.cryptocurrency.presentation
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
@@ -5,6 +6,7 @@ import androidx.lifecycle.ViewModelProvider
 import com.example.cryptocurrency.R
 import com.example.cryptocurrency.databinding.ActivityCoinPriceListBinding
 import com.example.cryptocurrency.domain.CoinInfo
+import com.example.cryptocurrency.presentation.adapters.CoinInfoAdapter
 import javax.inject.Inject
 
 class CoinPriceListActivity : AppCompatActivity() {
@@ -38,7 +40,6 @@ class CoinPriceListActivity : AppCompatActivity() {
             }
         }
         binding.rvCoinPriceList.adapter = adapter
-        binding.rvCoinPriceList.itemAnimator = null
         viewModel = ViewModelProvider(this, viewModelFactory)[CoinViewModel::class.java]
         viewModel.coinInfoList.observe(this) {
             adapter.submitList(it)

@@ -1,8 +1,7 @@
-
+package com.example.cryptocurrency.presentation
 
 import android.app.Application
 import androidx.work.Configuration
-import com.example.cryptoapp.data.workers.CoinWorkerFactory
 import com.example.cryptocurrency.data.workers.CoinWorkerFactory
 import com.example.cryptocurrency.di.DaggerApplicationComponent
 import javax.inject.Inject

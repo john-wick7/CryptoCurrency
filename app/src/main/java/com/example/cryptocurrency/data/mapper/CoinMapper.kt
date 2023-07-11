@@ -1,9 +1,10 @@
-package com.example.cryptoapp.data.mapper
+package com.example.cryptocurrency.data.mapper
 
-import com.example.cryptoapp.data.database.CoinInfoDbModel
-import com.example.cryptoapp.data.network.model.CoinInfoDto
-import com.example.cryptoapp.data.network.model.CoinInfoJsonContainerDto
-import com.example.cryptoapp.data.network.model.CoinNamesListDto
+
+import com.example.cryptocurrency.data.database.CoinInfoDbModel
+import com.example.cryptocurrency.data.network.model.CoinInfoDto
+import com.example.cryptocurrency.data.network.model.CoinInfoJsonContainerDto
+import com.example.cryptocurrency.data.network.model.CoinNamesListDto
 import com.example.cryptocurrency.domain.CoinInfo
 import com.google.gson.Gson
 import java.sql.Timestamp
